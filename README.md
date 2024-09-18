@@ -1,5 +1,5 @@
 # House Price Prediction with EmlakJet: ML Technique
-
+#### 
 ## Project Overview
 In this project, various machine learning models were developed to predict house prices using data from EmlakJet. The process involved data preprocessing, feature engineering, and transformation techniques, followed by model training and optimization. Multiple models, including Linear Regression, Decision Trees, Random Forest, Gradient Boosting, XGBoost, and others, were trained to find the best-performing model. **Optuna** was used for hyperparameter tuning to further improve the best model’s performance.
 
@@ -23,8 +23,6 @@ Feature engineering is crucial in this project:
 - **Feature Transformation**: Skewed features were transformed to reduce the impact of outliers and enhance the model's performance.
   
 This step involved:
-- Handling missing values
-- Encoding categorical variables (One-Hot Encoding)
 - Scaling numerical features using **StandardScaler** and **MinMaxScaler**.
 
 ## Modeling
@@ -38,10 +36,10 @@ Several machine learning models were trained, and their performances were compar
 - **LGBMRegressor**: LightGBM for high-performance gradient boosting with categorical feature handling.
 - **GradientBoostingRegressor**: Powerful boosting model used for complex data structures.
 - **MLPRegressor**: Neural network model used to capture non-linear relationships.
+- **CatBoostRegressor**: A fast, accurate gradient boosting model that handles categorical features efficiently with minimal tuning.
 
 Each model's performance was evaluated based on:
-- **Mean Squared Error (MSE)**
-- **R-squared (R²)**
+- **Root Mean Squared Error (RMSE)**
 
 ## Hyperparameter Tuning
 The best-performing model was further optimized using **Optuna**, a hyperparameter optimization library. Optuna was employed to search for the optimal set of hyperparameters, which further boosted the model's performance.
@@ -53,6 +51,7 @@ The best-performing model was further optimized using **Optuna**, a hyperparamet
 - Scikit-learn
 - XGBoost
 - LightGBM
+- catboost
 - Matplotlib / Seaborn for visualization
 - Optuna (for hyperparameter tuning)
 
