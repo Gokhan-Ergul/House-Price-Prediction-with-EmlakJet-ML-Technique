@@ -1,5 +1,5 @@
 # House Price Prediction with EmlakJet: ML Technique
-#### 
+#### For a detailed walkthrough of the data scraping and subsequent analysis, you can refer to [my Kaggle notebook](https://www.kaggle.com/code/gokhanergul/house-price-prediction-with-emlakjet-ml-technique) here.
 ## Project Overview
 In this project, various machine learning models were developed to predict house prices using data from EmlakJet. The process involved data preprocessing, feature engineering, and transformation techniques, followed by model training and optimization. Multiple models, including Linear Regression, Decision Trees, Random Forest, Gradient Boosting, XGBoost, and others, were trained to find the best-performing model. **Optuna** was used for hyperparameter tuning to further improve the best model’s performance.
 
